@@ -44,8 +44,8 @@ The intend of this project is to create and select the best regression model for
 | After cleaning most of the data mentioned from point 1 to 12 and performing RidgeCV with binning years | Improved         | 29537               |
 | Same as point 2 but using LassoCV and not binning years      | Not much changes | 29410               |
 | Same as point 3, and in addition dropping low variance nominal features which includes (Lot Config Roof Style, MS Sub Class and Exterior 2nd) with LassoCV | Improved         | 28066               |
-| Same as point 5 and dropping features with 0 lasso coefficient from training model | Deproved         | 23272               |
-| Same as point 4 and applying polynomial features with LassoCV | Improved         | 22542               |
+| Same as point 4 and dropping features with 0 lasso coefficient from training model | Improved         | 23272               |
+| Same as point 5 and applying polynomial features with LassoCV | Deproved         | 22542               |
 
 Tried tweaking different hyperparameters such as skew threshold value and n_alpha score but the RMSE and adjusted r squared score difference is negligable and hence not in the table above.
 
