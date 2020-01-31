@@ -8,7 +8,7 @@ The intend of this project is to build different classification models that can 
 - Convert processed text to vectors using countvectorizor or tf-idf
 - Perform grid search over all parameters for all models
 - Evaluate models base on accuracy score
-- Find out frequently occuring words that are classified correctly and wrongly
+- Find out frequently occurring words that are classified correctly and wrongly
 
 ### Data Source
 
