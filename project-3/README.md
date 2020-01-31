@@ -60,14 +60,14 @@ TN - Classify as r/learnprogramming and is correct
 
 FN - Classify as r/datascience but is suppose to be r/learnprogramming
 
-| Models               | Test Score | TP   | FP   | TN   | FN   | Precision | Recall | F1    |
-| -------------------- | ---------- | ---- | ---- | ---- | ---- | --------- | ------ | ----- |
-| Logistic Regression  | 0.907      | 233  | 31   | 176  | 11   | 0.882     | 0.955  | 0.917 |
-| K-Nearest Neighbours | 0.894      | 233  | 37   | 170  | 11   | 0.863     | 0.955  | 0.907 |
-| Naive Bayes          | 0.883      | 238  | 47   | 160  | 6    | 0.835     | 0.976  | 0.900 |
-| Random Forest        | 0.896      | 232  | 35   | 172  | 12   | 0.879     | 0.951  | 0.914 |
-| Extra Trees          | 0.880      | 226  | 36   | 171  | 18   | 0.863     | 0.927  | 0.894 |
-| Ada Boost            | 0.858      | 218  | 38   | 169  | 26   | 0.852     | 0.893  | 0.872 |
+| Models               | Test Score | TP   | FP   | TN   | FN   | Precision | Sensitivity | F1    |
+| -------------------- | ---------- | ---- | ---- | ---- | ---- | --------- | ----------- | ----- |
+| Logistic Regression  | 0.907      | 233  | 31   | 176  | 11   | 0.882     | 0.955       | 0.917 |
+| K-Nearest Neighbours | 0.894      | 233  | 37   | 170  | 11   | 0.863     | 0.955       | 0.907 |
+| Naive Bayes          | 0.883      | 238  | 47   | 160  | 6    | 0.835     | 0.976       | 0.900 |
+| Random Forest        | 0.896      | 232  | 35   | 172  | 12   | 0.879     | 0.951       | 0.914 |
+| Extra Trees          | 0.880      | 226  | 36   | 171  | 18   | 0.863     | 0.927       | 0.894 |
+| Ada Boost            | 0.858      | 218  | 38   | 169  | 26   | 0.852     | 0.893       | 0.872 |
 
 Top words correctly classified for datascience:
 
