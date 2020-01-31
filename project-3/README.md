@@ -2,6 +2,8 @@
 ### Problem Statement
 The intend of this project is to build different classification models that can accurately classify between subreddit topics based on text posts and find out which model gives the best accuracy.
 
+As a reddit moderator, it is useful to find posts that are posted in the wrong subreddit. 
+
 ### General approach
 - Scrape subreddit data
 - Clean text, lemmatize and remove stopwords
@@ -146,4 +148,4 @@ Top words misclassified for learnpython
 - There is no one model that can work well for all subreddit
 - Best model is logistic regression
 - Best parameters for count vectorizer is 1 gram tokenize with 2500 max features, using tfidf transform
-- Some of the misleading words that is oftenly misclassified includes 'python', 'r', 'people', 'work', 'science' for data science and 'artificial', 'intelligence', 'information', 'time' for learn programming
+- As a moderator it is good to find out those post with words that are misclassified when using the model
